@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,6 +9,16 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Douglas Chalegre</h1>
-</body>
-</html>>
+    <header>
+        <nav>
+            <div class="main-wrapper">
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Projetos</li>
+                    <a>Contato</a>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
