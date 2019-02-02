@@ -10,7 +10,7 @@ body {
 
 /* HEADER */
 .underline {
-  text-underline-position: above;
+  text-underline-position: below;
   text-decoration: underline #707070 solid;
 }
 
@@ -22,7 +22,7 @@ body {
   height: 650px;
 }
 .mainDiv .nome {
-  padding-top: 20%;
+  padding-top: 30%;
   padding-left: 20%;
   padding-right: 20%;
   color: #484444;
@@ -41,6 +41,42 @@ body {
   color: #FFFFFF;
 }
 
+.projetosDiv {
+  color: #FFFFFF;
+}
+.projetosDiv .projetos {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.projetosDiv .futuro {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.projetosDiv h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+.projetosDiv ul {
+  font-size: 13px;
+}
+.projetosDiv ul li {
+  padding-bottom: 5%;
+}
+.projetosDiv ul a {
+  color: #F5A59F;
+  text-decoration: underline;
+}
+
 /* FOOTER */
+footer .ic {
+  float: right;
+  display: flex;
+}
+footer .ic i {
+  margin: 5px;
+}
 
 /*# sourceMappingURL=main.css.map */
