@@ -21,7 +21,7 @@ body{
 
 .mainDiv{
     position: relative;
-    background-image: url(assets/img/teste2.jpg);
+    background-image: url(assets/img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
@@ -33,6 +33,7 @@ body{
         padding-right: 20%;
         color: $text-color;
         p{
+            margin-top: 5px;
             font-size: 13px;
         }
     }
@@ -87,12 +88,21 @@ body{
     /* FOOTER */
 footer{
 
-   .ic{
+   .icn{
        float: right;
        display: flex;
-       i{
-            margin: 5px;
-       }
+       ul{
+           list-style: none;
+           margin: 0;
+            li{
+                display: inline;
+                margin-left: 5px;
+                margin-right: 5px;
+                a{
+                    color: inherit;
+                }
+            }
+        }
    }
 }
 

@@ -16,7 +16,7 @@ body {
 
 .mainDiv {
   position: relative;
-  background-image: url(assets/img/teste2.jpg);
+  background-image: url(assets/img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 650px;
@@ -28,6 +28,7 @@ body {
   color: #484444;
 }
 .mainDiv .nome p {
+  margin-top: 5px;
   font-size: 13px;
 }
 .mainDiv .lerMais {
@@ -71,12 +72,21 @@ body {
 }
 
 /* FOOTER */
-footer .ic {
+footer .icn {
   float: right;
   display: flex;
 }
-footer .ic i {
-  margin: 5px;
+footer .icn ul {
+  list-style: none;
+  margin: 0;
+}
+footer .icn ul li {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .icn ul li a {
+  color: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */

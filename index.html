@@ -43,7 +43,11 @@
     <div class="mainDiv">
         <div class="nome">
             <h3>Douglas </br></h2>
-                <h1>Chalegre</h1>
+                <h1>
+                    <span class="typer" id="main" data-words="Chalegre" data-colors="#484444" data-delay="100"
+                        data-deleteDelay="10000"></span>
+                    <span class="cursor" data-owner="main"></span>
+                </h1>
                 <p>Web Developer autodidata e curioso,
                     focado em aprendizado através de
                     pesquisa e desenvolvimento.
@@ -51,13 +55,14 @@
                 </p>
         </div>
         <div class="lerMais">
+            <a href="projetos">
             <a>Ler mais</a>
-            <i class="fas fa-angle-double-down fa-2x"></i>
+            <i class="fas fa-angle-double-down fa-2x"></i></a>
         </div>
     </div>
 
     <div class="bg-dark projetosDiv">
-        <div class="projetos">
+        <div class="projetos" id="projetos">
             <h4 class="">Alguns dos meus projetos 😎</h4>
             <ul>
                 <li><a href="https://cutegifss.firebaseapp.com/">site simples</a> que exibe gifs
@@ -74,19 +79,31 @@
         <div class="futuro">
             <h4>Planos futuros 🚀</h4>
             <ul>
-                    <li>Criar um grupo de desenvolvedores para fornecer vários cursos gratuitos tanto para quem está iniciando na área quanto para desenvolvedores mais experientes buscando se atualizar nas tecnologias.
-                        </li>
-                    <li>Iniciar uma empresa júnior da área de ciência da computação na faculdade aonde estudo, buscando adquirir experiências profissionais e fornecer esse acesso de forma mais fácil para alunos futuramente
-                        </li>
-                </ul>
+                <li>Criar um grupo de desenvolvedores para fornecer vários cursos gratuitos tanto para quem está
+                    iniciando na área quanto para desenvolvedores mais experientes buscando se atualizar nas
+                    tecnologias.
+                </li>
+                <li>Iniciar uma empresa júnior da área de ciência da computação na faculdade aonde estudo, buscando
+                    adquirir experiências profissionais e fornecer esse acesso de forma mais fácil para alunos
+                    futuramente
+                </li>
+            </ul>
         </div>
     </div>
 
     <footer>
-        <div class="ic">
-            <i class="fab fa-twitter-square fa-2x"></i>
-            <i class="fab fa-github-square fa-2x"></i>
-            <i class="fab fa-linkedin fa-2x"></i>
+        <div class="icn">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/dougchalegre"><i class="fab fa-twitter-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/douglaschalegre"><i class="fab fa-github-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/douglas-chalegre-147263160/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </li>
+            </ul>
         </div>
     </footer>
 
@@ -96,6 +113,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="typer.js"></script>
     <script src="main.js"></script>
 </body>
 
