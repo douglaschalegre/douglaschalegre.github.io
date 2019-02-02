@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$text-color: #484444;
+$light-color: #FFFFFF;
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+    /* HEADER */
+
+.underline{
+    text-underline-position: above;
+    text-decoration: underline #707070 solid;    
+}
+
+.mainDiv{
+    position: relative;
+    background-image: url(assets/img/teste2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+
+
+    .nome{    
+        padding-top: 20%;
+        padding-left: 20%;
+        padding-right: 20%;
+        color: $text-color;
+        p{
+            font-size: 13px;
+        }
+    }
+
+    .lerMais{
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        padding-left: 40%;
+        padding-right: 40%;        
+        padding-bottom: 20px;
+        color: $light-color;
+    }
+  
+}
+
+.projetosDiv{
+    
+ 
+}
+
+    /* FOOTER */
+

@@ -6,55 +6,41 @@ body {
 .main-wrapper {
   margin: 0 auto;
   width: 100%;
-  /* HEADER */
 }
 
-header nav div ul {
-  /* DIV PRINCIPAL ESQUERDA */
-}
-header nav div ul li {
-  list-style: none;
-  display: inline;
-}
-header nav div ul a {
-  float: right;
-  margin-right: 5%;
+/* HEADER */
+.underline {
+  text-underline-position: above;
+  text-decoration: underline #707070 solid;
 }
 
-.divLeft {
-  background: url(assets/img/coding.jpg);
-  background-size: 100%;
+.mainDiv {
+  position: relative;
+  background-image: url(assets/img/teste2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  float: left;
-  width: 50%;
-  height: 630px;
-  /* DIV PRINCIPAL DIREITA */
+  height: 650px;
 }
-.divLeft img {
-  width: 100%;
-  height: auto;
+.mainDiv .nome {
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #484444;
 }
-
-.divRight {
+.mainDiv .nome p {
+  font-size: 13px;
+}
+.mainDiv .lerMais {
   text-align: center;
-  float: right;
-  width: 50%;
-  height: 630px;
-  /* FOOTER */
-}
-
-footer nav div {
+  font-weight: bold;
   position: absolute;
   bottom: 0;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-bottom: 20px;
+  color: #FFFFFF;
 }
-footer nav div ul li {
-  list-style: none;
-  display: inline;
-}
-footer nav div ul a {
-  display: inline;
-  float: right;
-  margin-right: 5%;
-}
+
+/* FOOTER */
 
 /*# sourceMappingURL=main.css.map */
